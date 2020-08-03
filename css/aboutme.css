@@ -3,6 +3,7 @@ body {
   background-color: #ffffff; /*цвет монитора */
   margin: 0;
   padding: 0;
+  height: 600px;
 }
 ul#navigation li {
   display: inline;
@@ -18,12 +19,16 @@ h1#test {
 nav {
   background: #ffffff;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 nav a {
   color: #86c264;
   text-decoration: none;
   font-size: 30px;
   margin-left: 20px;
+  border-right: 1px double;
+  padding-right: 20px;
 }
 footer {
   background-color: #ffffff;
@@ -34,6 +39,7 @@ footer {
   bottom: 0;
   width: 100%;
   overflow: hidden;
+  margin-top: 100px;
 }
 .content p {
   font-size: 20px;
@@ -48,5 +54,21 @@ footer p {
 aside {
   justify-content: center;
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+  width: 70%;
+  float: right;
+}
+.img_content {
+  float: left;
+  width: 20%;
+}
+.text_content {
+  float: right;
+  width: 70%;
+}
+.content {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  margin-top: 30px;
 }
