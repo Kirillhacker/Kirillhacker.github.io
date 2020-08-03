@@ -50,3 +50,22 @@ aside {
   text-align: center;
   margin-top: 100px;
 }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: #ec56d3;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: #ffffff;
+}
