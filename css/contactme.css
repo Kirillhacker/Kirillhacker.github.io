@@ -18,12 +18,16 @@ h1#test {
 nav {
   background: #ffffff;
   font-family: "Comic Sans MS", cursive, sans-serif;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 nav a {
   color: #86c264;
   text-decoration: none;
   font-size: 30px;
   margin-left: 20px;
+  border-right: 1px double;
+  padding-right: 20px;
 }
 footer {
   background-color: #ffffff;
