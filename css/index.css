@@ -91,7 +91,7 @@ aside {
 }
 @media only screen and (max-width: 1000px) {
   body {
-    background-color: lightblue;
+    background-color: white;
   }
   ul#navigation li {
     display: block;
@@ -99,11 +99,32 @@ aside {
     text-align: center;
     margin-bottom: 10px;
     border-bottom: 1px double;
+    width: 90%;
+    border-color: #86c264;
   }
   ul#navigation {
     padding: 0px;
   }
   nav a {
     border: none;
+  }
+  .content p {
+    margin: 0 auto;
+    margin-top: 20px;
+    border-bottom: 1px double;
+    width: 90%;
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+  aside {
+    padding-bottom: 70px;
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 50px;
+    border-bottom: 1px double;
+  }
+  footer {
+    margin: 0;
+    margin-top: 10px;
   }
 }
