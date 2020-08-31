@@ -54,3 +54,6 @@ aside {
   text-align: center;
   margin-top: 100px;
 }
+.content {
+  height: 500px;
+}
