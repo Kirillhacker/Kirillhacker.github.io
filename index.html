@@ -18,9 +18,78 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Portforio</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutme.html">About me</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="contactme.html"
+              >Contact me<span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myprojects.html">Projects</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li> -->
+        </ul>
+        <!-- <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form> -->
+      </div>
+    </nav>
+    <!-- <nav>
       <ul id="navigation">
         <li>
           <a href="index.html">Home</a>
@@ -31,10 +100,13 @@
         <li>
           <a href="contactme.html">Contact me</a>
         </li>
+        <li>
+          <a href="myprojects.html">Projects</a>
+        </li>
       </ul>
-    </nav>
+    </nav> -->
 
-    <div class="content">
+    <!-- <div class="content">
       <h1 id="test">Сайт визитка Кирилла Семёнова</h1>
       <p>
         Меня зовут Кирилл семёнов и это мой сайт визитка. В нем я розкажу про
@@ -49,23 +121,41 @@
         target="_blank"
         class="fa fa-instagram"
       ></a>
-      <!-- <p>instagram: llirik_for_life</p> -->
-      <a
+      <-- <p>instagram: llirik_for_life</p> -->
+      <!-- <a
         href="https://www.youtube.com/channel/UCh18hXz_eIEyIAHRoI4EEKA"
         target="_blank"
         class="fa fa-youtube"
       ></a>
-      <!-- <p>youtube: Kirill1us</p> -->
-      <a class="fa fa-vk" target="_blank" href=""></a>
+      <-- <p>youtube: Kirill1us</p> -->
+      <!-- <a class="fa fa-vk" target="_blank" href=""></a> -->
       <!-- <p>vk: Кирилл Семёнов</p> -->
       <!-- <button style="font-size: 24px;"><i class="fa fa-steam"></i></button> -->
-      <a
+      <!-- <a
         href="https://steamcommunity.com/profiles/76561199049462440/"
         target="_blank"
         class="fa fa-steam"
       ></a>
-      <!-- <p>steam: spaidi218</p> -->
-    </aside>
+      <-- <p>steam: spaidi218</p> -->
+    <!-- </aside> -->
+    <div class="container mt-5 mb-5 ">
+      <div class="row ">
+        <div class=" text-center col-sm-6 
+        col-xs-12">
+          <h1 id="test">Сайт визитка Кирилла Семёнова</h1>
+          <p class="mt-3">
+            Меня зовут Кирилл семёнов и это мой сайт визитка. В нем я розкажу про
+            себя, например: что я люблю делать.
+          </p>
+        </div>
+        <div class="text-center col-sm-6 col-xs-12"><h1>Соцсети в которых вы можете меня найти:</h3>
+          <p class="mt-3">instagram: llirik_for_life</p>
+          <p>youtube: Kirill1us</p>
+          <p>vk: Кирилл Семёнов</p>
+          <p>steam: spaidi218</p></div></div>
+      </div>
+      <div class="row">
+    </div>
     <footer>
       <p>&copy;Kirill Semenov</p>
     </footer>

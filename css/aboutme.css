@@ -17,10 +17,11 @@ h1#test {
   margin: 0px;
   font-family: "Rowdies", cursive;
 }
-}
+
 nav {
   background: #ffffff;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+
+  font-family: "Comic Sans MS", Gadget, sans-serif;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -36,15 +37,15 @@ footer {
   background-color: #ffffff;
   color: #86c264;
   font-family: Bradley Hand, cursive;
-  position: absolute;
+  /* position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 0; */
   width: 100%;
-  overflow: hidden;
-  margin-top: 100px;
+  /* overflow: hidden; */
+  margin-top: 300px;
 }
 .content p {
-  font-size: 20px;
+  font-size: 15px;
   text-align: center;
   font-family: "Roboto Mono", monospace;
 }
@@ -100,15 +101,15 @@ aside {
   float: center;
   /* width: 70%; */
 }
-.content {
+/* .content {
   width: 90%;
   margin: 0 auto;
   margin-bottom: 15px;
   margin-top: 30px;
-}
-img {
+} */
+/* img {
   style="width:100%;"
-}
+} */
 @media only screen and (max-width: 1000px) {
   body {
     background-color: white;
@@ -121,6 +122,8 @@ img {
     border-bottom: 1px double;
     width: 90%;
     border-color: #86c264;
+    justify-content: center;
+    margin-top: 10px;
   }
   ul#navigation {
     padding: 0px;
