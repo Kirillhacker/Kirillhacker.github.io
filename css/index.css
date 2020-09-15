@@ -10,12 +10,7 @@ ul#navigation li {
 }
 h1#test {
   color: black;
-  background: #706464;
-  border: 1px solid black;
-  padding: 100px;
-  font-family: "Arial Black", Gadget, sans-serif;
   margin: 0px;
-  font-family: "Rowdies", cursive;
 }
 nav {
   background: #ffffff;
@@ -35,11 +30,11 @@ footer {
   background-color: #ffffff;
   color: #86c264;
   font-family: Bradley Hand, cursive;
-  /* position: absolute;
+  position: absolute;
   left: 0;
-  bottom: 0; */
+  bottom: 0;
   width: 100%;
-  /* overflow: hidden; */
+  overflow: hidden;
   height: 50px;
 }
 .content p {
