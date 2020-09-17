@@ -1,3 +1,42 @@
 .content {
   height: 300px;
 }
+.fa {
+  padding: 20px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-top: 10px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: #ec56d3;
+  color: white;
+}
+.fa-youtube {
+  background: red;
+  color: #ffffff;
+}
+.fa-steam {
+  background: rgb(17, 17, 114);
+  color: #ffffff;
+}
+.fa-vk {
+  background: rgb(76, 117, 163);
+  color: #ffffff;
+}
+footer {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 300px;
+  margin-bottom: 50px;
+}
