@@ -31,12 +31,24 @@
   color: #ffffff;
 }
 footer {
-  background-color: #ffffff;
-  position: absolute;
-  left: 0;
-  bottom: 0;
+  background-color: rgb(248, 249, 250);
+  margin-top: -100px;
+  /* height: 200px; */
   width: 100%;
-  overflow: hidden;
-  margin-top: 300px;
-  margin-bottom: 50px;
+  position: relative;
+}
+body {
+  min-height: 100%;
+}
+.myp {
+  padding-bottom: 0;
+}
+.picture {
+  height: 80%;
+  width: 80%;
+}
+@media only screen and (max-width: 1000px) {
+  .aimnoborder {
+    border: none;
+  }
 }
