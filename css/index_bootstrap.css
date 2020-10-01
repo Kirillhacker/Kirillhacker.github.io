@@ -1,3 +1,10 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin-bottom: 150px;
+}
 aside {
   justify-content: center;
   text-align: center;
@@ -37,12 +44,17 @@ aside {
   color: #ffffff;
 }
 footer {
-  background-color: #ffffff;
+  text-align: left;
+  background: rgb(248, 249, 250);
   position: absolute;
   left: 0;
   bottom: 0;
+  height: 40px;
   width: 100%;
   overflow: hidden;
-  margin-top: 300px;
-  margin-bottom: 50px;
+}
+@media only screen and (max-width: 1000px) {
+  p {
+    text-align: justify;
+  }
 }
