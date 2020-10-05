@@ -5,6 +5,15 @@ html {
 body {
   margin-bottom: 150px;
 }
+h1 {
+  text-align: center;
+  justify-content: center;
+  float: center;
+  padding: 30px;
+}
+h3 {
+  padding: 20px;
+}
 aside {
   justify-content: center;
   text-align: center;
