@@ -62,6 +62,152 @@ footer {
   width: 100%;
   overflow: hidden;
 }
+.anim {
+  animation: fadeIn ease 6s;
+  -webkit-animation: fadeIn ease 6s;
+  -moz-animation: fadeIn ease 6s;
+  -o-animation: fadeIn ease 6s;
+  -ms-animation: fadeIn ease 6s;
+}
+.anim2 {
+  animation: fadeIn ease 9s;
+  -webkit-animation: fadeIn ease 9s;
+  -moz-animation: fadeIn ease 9s;
+  -o-animation: fadeIn ease 9s;
+  -ms-animation: fadeIn ease 9s;
+}
+.anim-left {
+  position: relative;
+  animation: mymove 5s;
+}
+.anim-right {
+  position: relative;
+  animation: mymove2 5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mymove {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@keyframes mymove2 {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@-ms-keyframes mymove {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@-ms-keyframes mymove2 {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@-o-keyframes mymove {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@-o-keyframes mymove2 {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@-webkit-keyframes mymove {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@-webkit-keyframes mymove2 {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
+@-moz-keyframes mymove {
+  from {
+    left: -200px;
+  }
+  to {
+    left: 0px;
+  }
+}
+@-moz-keyframes mymove2 {
+  from {
+    right: -200px;
+  }
+  to {
+    right: 0px;
+  }
+}
 @media only screen and (max-width: 1000px) {
   p {
     text-align: justify;
